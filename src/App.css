@@ -39,10 +39,15 @@
   align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 20px 0;
+  /* keep consistent horizontal padding (20-40px) while spanning viewport */
+  padding: 20px 28px;
   backdrop-filter: blur(18px);
   background: rgba(10, 10, 10, 0.78);
   border-bottom: 1px solid rgba(212, 175, 55, 0.12);
+  /* span full viewport width while compensating for .page-shell horizontal padding */
+  width: calc(100% + 48px);
+  margin-left: -24px;
+  box-sizing: border-box;
 }
 
 .brand {
@@ -720,7 +725,13 @@
   }
 
   .site-header {
+    /* keep vertical spacing while maintaining full-bleed behavior on tablet */
     padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100% + 48px);
+    margin-left: -24px;
+    box-sizing: border-box;
   }
 
   .resume-card,
@@ -759,6 +770,14 @@
     flex-direction: column;
     align-items: flex-start;
   }
+
+  /* adjust header offset to match reduced .page-shell padding */
+  .site-header {
+    width: calc(100% + 32px);
+    margin-left: -16px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 
@@ -789,7 +808,11 @@
 
 @media (max-width: 768px) {
   .site-header {
-    padding: 16px 0;
+    /* maintain horizontal padding on small screens */
+    padding: 16px 20px;
+    width: calc(100% + 48px);
+    margin-left: -24px;
+    box-sizing: border-box;
   }
 
   .brand {
