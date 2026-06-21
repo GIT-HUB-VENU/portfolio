@@ -1,16 +1,25 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built to showcase my skills, projects, and experience as a Full Stack Developer. The project is designed with a focus on performance, responsiveness, and modern UI principles.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The portfolio highlights my technical background, including frontend and backend development skills, key projects, and achievements. It serves as a central place for recruiters and collaborators to understand my work and capabilities.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Responsive design for all screen sizes
+- Modern UI built with clean component structure
+- Fast performance using optimized build tools
+- Project showcase section
+- Skills and technologies overview
+- Contact section for professional communication
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React / Vite
+- Styling: CSS / Tailwind CSS (if used)
+- Build Tool: Vite
+- Version Control: Git and GitHub
+
+## Project Structure
