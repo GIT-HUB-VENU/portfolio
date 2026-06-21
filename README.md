@@ -1,16 +1,65 @@
-# React + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built to showcase my skills, projects, and experience as a Full Stack Developer. It is designed with a focus on performance, responsiveness, and modern UI principles.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The portfolio serves as a central platform to present my technical background, projects, and achievements. It highlights my capabilities in frontend and backend development and provides an easy way for recruiters and collaborators to evaluate my work.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fully responsive design for all devices
+- Modern and clean UI layout
+- Fast performance with optimized build setup
+- Project showcase section
+- Skills and technologies overview
+- Contact section for professional communication
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React (or your framework)
+- Build Tool: Vite
+- Styling: CSS / Tailwind CSS (if used)
+- Version Control: Git and GitHub
+
+## Project Structure
+
+src/
+components/
+pages/
+assets/
+public/
+index.html
+package.json
+vite.config.js
+
+## Installation
+
+Clone the repository:
+
+git clone https://github.com/GIT-HUB-VENU/portfolio.git
+
+Navigate to the project directory:
+
+cd portfolio
+
+Install dependencies:
+
+npm install
+
+Run development server:
+
+npm run dev
+
+Build for production:
+
+npm run build
+
+## Deployment
+
+This project can be deployed using platforms such as Vercel or Netlify for fast and reliable hosting.
+
+## Contact
+
+GitHub: https://github.com/GIT-HUB-VENU  
+Email: venugopal5880848@gmail.com
