@@ -762,7 +762,7 @@
 }
 
 
-// mobile and tablet view
+/* mobile and tablet view*/
 @media (max-width: 1024px) {
   .hero-section {
     grid-template-columns: 1fr;
